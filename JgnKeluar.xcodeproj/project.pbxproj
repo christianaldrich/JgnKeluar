@@ -16,6 +16,22 @@
 		BA75AF422BFFAD790045D89B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75AF412BFFAD790045D89B /* ContentView.swift */; };
 		BA75AF442BFFAD7A0045D89B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA75AF432BFFAD7A0045D89B /* Assets.xcassets */; };
 		BA75AF472BFFAD7A0045D89B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA75AF462BFFAD7A0045D89B /* Preview Assets.xcassets */; };
+		BA75AF522BFFADD70045D89B /* WatchConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75AF512BFFADD70045D89B /* WatchConnector.swift */; };
+		BA75AF572BFFAE960045D89B /* WatchToiOSConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75AF562BFFAE960045D89B /* WatchToiOSConnector.swift */; };
+		BA75AF5A2BFFB4C30045D89B /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA75AF582BFFB4BF0045D89B /* WatchConnectivity.framework */; };
+		BA75AF5D2BFFB4C70045D89B /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA75AF542BFFAE210045D89B /* WatchConnectivity.framework */; };
+		BA7E406C2C00514E00A90F86 /* locationScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E406B2C00514E00A90F86 /* locationScanner.swift */; };
+		BA7E40752C0076ED00A90F86 /* AlertSounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E40742C0076ED00A90F86 /* AlertSounds.swift */; };
+		BA7E40762C0076ED00A90F86 /* AlertSounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E40742C0076ED00A90F86 /* AlertSounds.swift */; };
+		BA7E407B2C00771200A90F86 /* bombSiren.wav in Resources */ = {isa = PBXBuildFile; fileRef = BA7E40782C00771200A90F86 /* bombSiren.wav */; };
+		BA7E407C2C00771200A90F86 /* bombSiren.wav in Resources */ = {isa = PBXBuildFile; fileRef = BA7E40782C00771200A90F86 /* bombSiren.wav */; };
+		BA7E407D2C00771200A90F86 /* pedro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA7E40792C00771200A90F86 /* pedro.mp3 */; };
+		BA7E407E2C00771200A90F86 /* pedro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA7E40792C00771200A90F86 /* pedro.mp3 */; };
+		BA7E407F2C00771200A90F86 /* pedroTrimmed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA7E407A2C00771200A90F86 /* pedroTrimmed.mp3 */; };
+		BA7E40802C00771200A90F86 /* pedroTrimmed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA7E407A2C00771200A90F86 /* pedroTrimmed.mp3 */; };
+		BA7E40832C00775E00A90F86 /* BeaconScannerLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E40812C00775E00A90F86 /* BeaconScannerLogic.swift */; };
+		BA7E40852C007E6C00A90F86 /* 15MinTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E40842C007E6C00A90F86 /* 15MinTimer.swift */; };
+		BA7E40862C007E6C00A90F86 /* 15MinTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E40842C007E6C00A90F86 /* 15MinTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +69,19 @@
 		BA75AF412BFFAD790045D89B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA75AF432BFFAD7A0045D89B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA75AF462BFFAD7A0045D89B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA75AF512BFFADD70045D89B /* WatchConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnector.swift; sourceTree = "<group>"; };
+		BA75AF542BFFAE210045D89B /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.4.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		BA75AF562BFFAE960045D89B /* WatchToiOSConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchToiOSConnector.swift; sourceTree = "<group>"; };
+		BA75AF582BFFB4BF0045D89B /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		BA7E406B2C00514E00A90F86 /* locationScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationScanner.swift; sourceTree = "<group>"; };
+		BA7E40742C0076ED00A90F86 /* AlertSounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSounds.swift; sourceTree = "<group>"; };
+		BA7E40782C00771200A90F86 /* bombSiren.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bombSiren.wav; path = "../../../TestingWatch/TestingWatch Watch App/Sounds/bombSiren.wav"; sourceTree = "<group>"; };
+		BA7E40792C00771200A90F86 /* pedro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pedro.mp3; path = "../../../TestingWatch/TestingWatch Watch App/Sounds/pedro.mp3"; sourceTree = "<group>"; };
+		BA7E407A2C00771200A90F86 /* pedroTrimmed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pedroTrimmed.mp3; path = "../../../TestingWatch/TestingWatch Watch App/Sounds/pedroTrimmed.mp3"; sourceTree = "<group>"; };
+		BA7E40812C00775E00A90F86 /* BeaconScannerLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconScannerLogic.swift; sourceTree = "<group>"; };
+		BA7E40842C007E6C00A90F86 /* 15MinTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15MinTimer.swift; sourceTree = "<group>"; };
+		BA7E408A2C01BA0600A90F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BA7E408B2C01BC9A00A90F86 /* JgnKeluar-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "JgnKeluar-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA75AF5A2BFFB4C30045D89B /* WatchConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA75AF5D2BFFB4C70045D89B /* WatchConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +110,7 @@
 				BA75AF2C2BFFAD780045D89B /* JgnKeluar */,
 				BA75AF3E2BFFAD790045D89B /* JgnKeluar Watch App */,
 				BA75AF2B2BFFAD780045D89B /* Products */,
+				BA75AF532BFFAE200045D89B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +126,11 @@
 		BA75AF2C2BFFAD780045D89B /* JgnKeluar */ = {
 			isa = PBXGroup;
 			children = (
+				BA7E408A2C01BA0600A90F86 /* Info.plist */,
 				BA75AF2D2BFFAD780045D89B /* JgnKeluarApp.swift */,
 				BA75AF2F2BFFAD780045D89B /* ContentView.swift */,
+				BA7E406B2C00514E00A90F86 /* locationScanner.swift */,
+				BA75AF512BFFADD70045D89B /* WatchConnector.swift */,
 				BA75AF312BFFAD790045D89B /* Assets.xcassets */,
 				BA75AF332BFFAD790045D89B /* Preview Content */,
 			);
@@ -113,8 +148,14 @@
 		BA75AF3E2BFFAD790045D89B /* JgnKeluar Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				BA7E408B2C01BC9A00A90F86 /* JgnKeluar-Watch-App-Info.plist */,
+				BA7E40772C0076F400A90F86 /* SoundFiles */,
+				BA75AF562BFFAE960045D89B /* WatchToiOSConnector.swift */,
 				BA75AF3F2BFFAD790045D89B /* JgnKeluarApp.swift */,
 				BA75AF412BFFAD790045D89B /* ContentView.swift */,
+				BA7E40812C00775E00A90F86 /* BeaconScannerLogic.swift */,
+				BA7E40742C0076ED00A90F86 /* AlertSounds.swift */,
+				BA7E40842C007E6C00A90F86 /* 15MinTimer.swift */,
 				BA75AF432BFFAD7A0045D89B /* Assets.xcassets */,
 				BA75AF452BFFAD7A0045D89B /* Preview Content */,
 			);
@@ -127,6 +168,25 @@
 				BA75AF462BFFAD7A0045D89B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA75AF532BFFAE200045D89B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA75AF582BFFB4BF0045D89B /* WatchConnectivity.framework */,
+				BA75AF542BFFAE210045D89B /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA7E40772C0076F400A90F86 /* SoundFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BA7E40782C00771200A90F86 /* bombSiren.wav */,
+				BA7E40792C00771200A90F86 /* pedro.mp3 */,
+				BA7E407A2C00771200A90F86 /* pedroTrimmed.mp3 */,
+			);
+			path = SoundFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +270,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA7E407B2C00771200A90F86 /* bombSiren.wav in Resources */,
+				BA7E407F2C00771200A90F86 /* pedroTrimmed.mp3 in Resources */,
+				BA7E407D2C00771200A90F86 /* pedro.mp3 in Resources */,
 				BA75AF352BFFAD790045D89B /* Preview Assets.xcassets in Resources */,
 				BA75AF322BFFAD790045D89B /* Assets.xcassets in Resources */,
 			);
@@ -219,6 +282,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA7E407C2C00771200A90F86 /* bombSiren.wav in Resources */,
+				BA7E40802C00771200A90F86 /* pedroTrimmed.mp3 in Resources */,
+				BA7E407E2C00771200A90F86 /* pedro.mp3 in Resources */,
 				BA75AF472BFFAD7A0045D89B /* Preview Assets.xcassets in Resources */,
 				BA75AF442BFFAD7A0045D89B /* Assets.xcassets in Resources */,
 			);
@@ -232,7 +298,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA75AF302BFFAD780045D89B /* ContentView.swift in Sources */,
+				BA75AF522BFFADD70045D89B /* WatchConnector.swift in Sources */,
+				BA7E40852C007E6C00A90F86 /* 15MinTimer.swift in Sources */,
 				BA75AF2E2BFFAD780045D89B /* JgnKeluarApp.swift in Sources */,
+				BA7E406C2C00514E00A90F86 /* locationScanner.swift in Sources */,
+				BA7E40752C0076ED00A90F86 /* AlertSounds.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +310,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA7E40762C0076ED00A90F86 /* AlertSounds.swift in Sources */,
+				BA7E40832C00775E00A90F86 /* BeaconScannerLogic.swift in Sources */,
+				BA7E40862C007E6C00A90F86 /* 15MinTimer.swift in Sources */,
+				BA75AF572BFFAE960045D89B /* WatchToiOSConnector.swift in Sources */,
 				BA75AF422BFFAD790045D89B /* ContentView.swift in Sources */,
 				BA75AF402BFFAD790045D89B /* JgnKeluarApp.swift in Sources */,
 			);
@@ -381,6 +455,7 @@
 				DEVELOPMENT_TEAM = CAPH2JRFFZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JgnKeluar-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = JgnKeluar;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.pang.JgnKeluar;
@@ -411,6 +486,7 @@
 				DEVELOPMENT_TEAM = CAPH2JRFFZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JgnKeluar-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = JgnKeluar;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.pang.JgnKeluar;
@@ -443,7 +519,10 @@
 				DEVELOPMENT_TEAM = CAPH2JRFFZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JgnKeluar/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = JgnKeluar;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We want to know your current location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to know your current location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -476,7 +555,10 @@
 				DEVELOPMENT_TEAM = CAPH2JRFFZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JgnKeluar/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = JgnKeluar;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We want to know your current location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to know your current location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
